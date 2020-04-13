@@ -6,3 +6,5 @@
 2、当clone远程仓库到本地时，切记不要使用“git@github.com:zxmfly/learnTp6.git”地址，会报错，ssh key不可读，应该直接使用https://github.com/zxmfly/learnTp6 地址就好了
 
 3、使用命令 git push origin master 远程推送可以，使用SourceTree失败，提示第一个，使用SourceTree命令行模式执行git push origin master，重新输入账号密码；
+
+4、
