@@ -1,6 +1,8 @@
-1、当使用SourceTree：提交远程仓库失败
+﻿1、当使用SourceTree：提交远程仓库失败
 提示错误：remote: Invalid username or password.
 	fatal: Authentication failed for 'https://github.com/zxmfly/learnGit/'
 进入项目目录，执行：git push origin master，重新输入账号密码；
 
 2、当clone远程仓库到本地时，切记不要使用“git@github.com:zxmfly/learnTp6.git”地址，会报错，ssh key不可读，应该直接使用https://github.com/zxmfly/learnTp6 地址就好了
+
+3、使用命令 git push origin master 远程推送可以，使用SourceTree失败，提示第一个
